@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+:root {
+    --blue: hsl(223, 87%, 63%);
+    --pale-blue: hsl(223, 100%, 88%);
+    --light-red: hsl(354, 100%, 66%);
+    /* neutrals */
+    --gray: hsl(0, 0%, 59%);
+    --very-dark-blue: hsl(209, 33%, 12%);
+}
+
+header {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+header img {
+    width: 90px;
+    margin-bottom: 1rem;
+}
+
+main .heading {
+    text-align: center;
+
+}
+
+main .heading h1 {
+    font-weight: 300;
+    color: var(--gray);
+}
+
+main .heading h1 strong {
+    color: var(--very-dark-blue);
+}
+
+main .heading p {
+    font-size: .9rem;
+    margin: 0.5rem 0;
+}
+
+main .input_area {
+    width: 100%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+main .input_area input {
+    padding: 18px;
+    border-radius: 30px;
+    border: 0.1px solid var(--gray);
+    font-size: .8rem;
+    width: 17%;
+}
+
+main .input_area input::placeholder {
+    color: var(--gray);
+}
+
+main .input_area button {
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    width: 10%;
+    background-color: var(--blue);
+    color: white;
+
+}
+
+main .image_area {
+    width: 60%;
+    margin: auto;
+}
+
+main .image_area img {
+    width: 100%;
+
+}
